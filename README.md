@@ -37,5 +37,3 @@ integrantes:
 -GitHub Hello World.
 -Documentacion oficial de Git.
 -Documentacion oficial de GitHub.
-COMMITS
-1-
