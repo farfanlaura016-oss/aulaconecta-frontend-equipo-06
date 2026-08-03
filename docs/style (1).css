@@ -1,0 +1,69 @@
+
+.hero {
+  min-height: 85vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)),
+    url("https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1600&q=80");
+  background-size: cover;
+  background-position: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section[id],
+header[id] {
+  scroll-margin-top: 70px;
+}
+.card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px rgba(255, 100, 0, 0.12);
+}
+
+.nav-link:hover {
+  color: #ff6400 !important;
+  transition: color 0.2s;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #ff6400 !important;
+  box-shadow: 0 0 0 3px rgba(255, 100, 0, 0.15) !important;
+  background: rgba(255, 255, 255, 0.07) !important;
+  color: #fff !important;
+}
+
+.form-control::placeholder,
+.form-select::placeholder {
+  color: #555;
+}
+.form-select option {
+  background: #111;
+  color: #fff;
+}
+.btn[style*="background:#ff6400"]:hover {
+  background: #e05800 !important;
+  transition: background 0.2s;
+}
+
+.btn[style*="border:1px solid #ff6400"]:hover {
+  background: rgba(255, 100, 0, 0.12) !important;
+}
+footer a:hover {
+  color: #ff6400 !important;
+  transition: color 0.2s;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #050510;
+}
+::-webkit-scrollbar-thumb {
+  background: #ff6400;
+  border-radius: 3px;
+}
