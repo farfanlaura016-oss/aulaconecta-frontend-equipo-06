@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HoopZone Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&family=Exo+2:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background: rgba(5,5,15,0.92); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(255,100,0,0.15);">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#" style="font-family:'Barlow Condensed',sans-serif; color:#ff6400; letter-spacing:2px; font-size:1.4rem;">
+        🏀 HOOPZONE
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuPrincipal">
+        <ul class="navbar-nav ms-auto gap-1">
+          <li class="nav-item"><a class="nav-link px-3" href="#inicio" style="color:#ccc; font-family:'Exo 2',sans-serif; letter-spacing:1px;">INICIO</a></li>
+          <li class="nav-item"><a class="nav-link px-3" href="#catalogo" style="color:#ccc; font-family:'Exo 2',sans-serif; letter-spacing:1px;">CATÁLOGO</a></li>
+          <li class="nav-item"><a class="nav-link px-3" href="#equipos" style="color:#ccc; font-family:'Exo 2',sans-serif; letter-spacing:1px;">EQUIPOS</a></li>
+          <li class="nav-item"><a class="nav-link px-3" href="#contacto" style="color:#ccc; font-family:'Exo 2',sans-serif; letter-spacing:1px;">CONTACTO</a></li>
+          <li class="nav-item ms-2">
+            <a class="nav-link px-3 rounded" href="#contacto" style="background: rgba(255,100,0,0.12); border:1px solid #ff6400; color:#ff6400; font-family:'Exo 2',sans-serif;">
+              <i class="bi bi-cart3"></i> Carrito
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header id="inicio" class="hero d-flex align-items-center text-white">
+    <div class="container text-center py-5">
+
+      <span class="badge px-3 py-2 mb-4 d-inline-block" style="background: rgba(255,100,0,0.15); border:1px solid #ff6400; color:#ff6400; font-family:'Exo 2',sans-serif; letter-spacing:2px; font-size:0.75rem;">
+        🏀 JERSEYS Y EQUIPOS NUEVOS CADA SEMANA
+      </span>
+
+      <h1 class="display-3 fw-bold mb-3" style="font-family:'Barlow Condensed',sans-serif; line-height:1.1; text-shadow: 0 0 40px rgba(255,100,0,0.4);">
+        TU PASIÓN POR EL<br>
+        <span style="color:#ff6400;">BALONCESTO</span> COMIENZA AQUÍ
+      </h1>
+
+      <p class="lead mb-5 mx-auto" style="max-width:560px; color:#aaa; font-family:'Exo 2',sans-serif; font-weight:300;">
+        Jerseys, balones, zapatillas y accesorios NBA y NCAA. Envío rápido a todo Colombia.
+      </p>
+
+      <div class="d-flex justify-content-center gap-3 flex-wrap">
+        <a href="#catalogo" class="btn btn-lg px-4 py-3" style="background:#ff6400; color:#000; font-family:'Exo 2',sans-serif; font-weight:600; letter-spacing:1px; border:none;">
+          <i class="bi bi-grid-fill me-2"></i>VER CATÁLOGO
+        </a>
+        <a href="#contacto" class="btn btn-lg px-4 py-3" style="background:transparent; border:1px solid rgba(255,255,255,0.3); color:#fff; font-family:'Exo 2',sans-serif; font-weight:300; letter-spacing:1px;">
+          <i class="bi bi-headset me-2"></i>SOPORTE
+        </a>
+      </div>
+
+      <div class="row mt-5 pt-4 g-3 justify-content-center" style="border-top:1px solid rgba(255,255,255,0.08);">
+        <div class="col-4 col-md-2">
+          <p class="fw-bold mb-0" style="font-family:'Barlow Condensed',sans-serif; font-size:1.6rem; color:#ff6400;">+300</p>
+          <small style="color:#888; font-family:'Exo 2',sans-serif;">Productos</small>
+        </div>
+        <div class="col-4 col-md-2">
+          <p class="fw-bold mb-0" style="font-family:'Barlow Condensed',sans-serif; font-size:1.6rem; color:#ff6400;">+1.5K</p>
+          <small style="color:#888; font-family:'Exo 2',sans-serif;">Clientes</small>
+        </div>
+        <div class="col-4 col-md-2">
+          <p class="fw-bold mb-0" style="font-family:'Barlow Condensed',sans-serif; font-size:1.6rem; color:#ff6400;">24/7</p>
+          <small style="color:#888; font-family:'Exo 2',sans-serif;">Soporte</small>
+        </div>
+      </div>
+
+    </div>
+  </header>
+  <section id="catalogo" class="py-5" style="background:#0a0a1a;">
+    <div class="container">
+
+      <div class="text-center mb-5">
+        <p class="mb-1" style="color:#ff6400; font-family:'Exo 2',sans-serif; letter-spacing:3px; font-size:0.8rem;">── EXPLORA ──</p>
+        <h2 class="fw-bold text-white" style="font-family:'Barlow Condensed',sans-serif; font-size:2.2rem;">CATEGORÍAS</h2>
+      </div>
+
+      <div class="row g-4">
+
+        <div class="col-md-4">
+          <div class="card h-100 border-0 position-relative overflow-hidden" style="background:rgba(255,255,255,0.04); border:1px solid rgba(255,100,0,0.12) !important;">
+            <div class="card-body text-center p-4">
+              <div class="mb-3" style="font-size:2.8rem;">🏀</div>
+              <h5 class="fw-bold text-white mb-2" style="font-family:'Barlow Condensed',sans-serif; font-size:1.1rem; letter-spacing:1px;">BALONES Y EQUIPOS</h5>
+              <p class="mb-3" style="color:#888; font-family:'Exo 2',sans-serif; font-size:0.9rem;">Balones NBA Spalding, Wilson, molten y todo para entrenar.</p>
+              <a href="#contacto" class="btn btn-sm px-4" style="border:1px solid #ff6400; color:#ff6400; background:transparent; font-family:'Exo 2',sans-serif;">Explorar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 border-0" style="background:rgba(255,255,255,0.04); border:1px solid rgba(255,100,0,0.12) !important;">
+            <div class="card-body text-center p-4">
+              <div class="mb-3" style="font-size:2.8rem;">👕</div>
+              <h5 class="fw-bold text-white mb-2" style="font-family:'Barlow Condensed',sans-serif; font-size:1.1rem; letter-spacing:1px;">JERSEYS Y ROPA</h5>
+              <p class="mb-3" style="color:#888; font-family:'Exo 2',sans-serif; font-size:0.9rem;">Camisetas oficiales NBA, NCAA y selecciones nacionales.</p>
+              <a href="#contacto" class="btn btn-sm px-4" style="border:1px solid #ff6400; color:#ff6400; background:transparent; font-family:'Exo 2',sans-serif;">Explorar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 border-0" style="background:rgba(255,255,255,0.04); border:1px solid rgba(255,100,0,0.12) !important;">
+            <div class="card-body text-center p-4">
+              <div class="mb-3" style="font-size:2.8rem;">👟</div>
+              <h5 class="fw-bold text-white mb-2" style="font-family:'Barlow Condensed',sans-serif; font-size:1.1rem; letter-spacing:1px;">ZAPATILLAS</h5>
+              <p class="mb-3" style="color:#888; font-family:'Exo 2',sans-serif; font-size:0.9rem;">Jordan, Nike, Adidas y Under Armour. Las mejores para la cancha.</p>
+              <a href="#contacto" class="btn btn-sm px-4" style="border:1px solid #ff6400; color:#ff6400; background:transparent; font-family:'Exo 2',sans-serif;">Explorar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 border-0" style="background:rgba(255,255,255,0.04); border:1px solid rgba(255,100,0,0.12) !important;">
+            <div class="card-body text-center p-4">
+              <div class="mb-3" style="font-size:2.8rem;">🧢</div>
+              <h5 class="fw-bold text-white mb-2" style="font-family:'Barlow Condensed',sans-serif; font-size:1.1rem; letter-spacing:1px;">GORRAS Y ACCESORIOS</h5>
+              <p class="mb-3" style="color:#888; font-family:'Exo 2',sans-serif; font-size:0.9rem;">Gorras, medias, muñequeras y todo lo que necesitas en la cancha.</p>
+              <a href="#contacto" class="btn btn-sm px-4" style="border:1px solid #ff6400; color:#ff6400; background:transparent; font-family:'Exo 2',sans-serif;">Explorar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 border-0" style="background:rgba(255,255,255,0.04); border:1px solid rgba(255,100,0,0.12) !important;">
+            <div class="card-body text-center p-4">
+              <div class="mb-3" style="font-size:2.8rem;">🏆</div>
+              <h5 class="fw-bold text-white mb-2" style="font-family:'Barlow Condensed',sans-serif; font-size:1.1rem; letter-spacing:1px;">COLECCIONABLES</h5>
+              <p class="mb-3" style="color:#888; font-family:'Exo 2',sans-serif; font-size:0.9rem;">Figuras, posters, tarjetas y artículos firmados de tus jugadores favoritos.</p>
+              <a href="#contacto" class="btn btn-sm px-4" style="border:1px solid #ff6400; color:#ff6400; background:transparent; font-family:'Exo 2',sans-serif;">Explorar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 border-0" style="background: linear-gradient(135deg, rgba(255,100,0,0.08), rgba(255,100,0,0.02)); border:1px solid rgba(255,100,0,0.35) !important;">
+            <div class="card-body text-center p-4">
+              <div class="mb-3" style="font-size:2.8rem;">🔥</div>
+              <h5 class="fw-bold mb-2" style="font-family:'Barlow Condensed',sans-serif; font-size:1.1rem; letter-spacing:1px; color:#ff6400;">COMBOS Y OFERTAS</h5>
+              <p class="mb-3" style="color:#888; font-family:'Exo 2',sans-serif; font-size:0.9rem;">Paquetes especiales, kits completos y descuentos exclusivos.</p>
+              <a href="#contacto" class="btn btn-sm px-4" style="background:#ff6400; color:#000; font-family:'Exo 2',sans-serif; font-weight:600; border:none;">Ver ofertas</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section id="equipos" class="py-5" style="background:#070712;">
+    <div class="container">
+
+      <div class="text-center mb-5">
+        <p class="mb-1" style="color:#ff6400; font-family:'Exo 2',sans-serif; letter-spacing:3px; font-size:0.8rem;">── REPRESENTAMOS ──</p>
+        <h2 class="fw-bold text-white" style="font-family:'Barlow Condensed',sans-serif; font-size:2.2rem;">LIGAS Y EQUIPOS</h2>
+      </div>
+
+      <div class="row g-3 justify-content-center text-center">
+
+        <div class="col-6 col-md-3">
+          <div class="p-4 rounded-3" style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08);">
+            <div style="font-size:2.5rem;">🏀</div>
+            <p class="fw-bold text-white mt-2 mb-0" style="font-family:'Barlow Condensed',sans-serif; font-size:1rem;">NBA</p>
+            <small style="color:#ff6400; font-family:'Exo 2',sans-serif;">30 franquicias</small>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3">
+          <div class="p-4 rounded-3" style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08);">
+            <div style="font-size:2.5rem;">🎓</div>
+            <p class="fw-bold text-white mt-2 mb-0" style="font-family:'Barlow Condensed',sans-serif; font-size:1rem;">NCAA</p>
+            <small style="color:#ff6400; font-family:'Exo 2',sans-serif;">Universitario USA</small>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3">
+          <div class="p-4 rounded-3" style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08);">
+            <div style="font-size:2.5rem;">🌎</div>
+            <p class="fw-bold text-white mt-2 mb-0" style="font-family:'Barlow Condensed',sans-serif; font-size:1rem;">FIBA</p>
+            <small style="color:#ff6400; font-family:'Exo 2',sans-serif;">Selecciones mundiales</small>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3">
+          <div class="p-4 rounded-3" style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08);">
+            <div style="font-size:2.5rem;">🇨🇴</div>
+            <p class="fw-bold text-white mt-2 mb-0" style="font-family:'Barlow Condensed',sans-serif; font-size:1rem;">LNB Colombia</p>
+            <small style="color:#ff6400; font-family:'Exo 2',sans-serif;">Liga nacional</small>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="py-5" style="background:#0a0a1a;">
+    <div class="container">
+      <div class="row align-items-center g-5">
+
+        <div class="col-md-6">
+          <p class="mb-1" style="color:#ff6400; font-family:'Exo 2',sans-serif; letter-spacing:3px; font-size:0.8rem;">── NOSOTROS ──</p>
+          <h2 class="fw-bold text-white mb-4" style="font-family:'Barlow Condensed',sans-serif; font-size:2.2rem; line-height:1.2;">LA TIENDA BASKET<br>DE COLOMBIA</h2>
+          <p style="color:#aaa; font-family:'Exo 2',sans-serif; font-weight:300; line-height:1.8;">
+            Somos la tienda de baloncesto más completa del país. Más de 6 años entregando la mejor experiencia a miles de fanáticos y deportistas satisfechos.
+          </p>
+          <a href="#contacto" class="btn mt-2 px-4 py-2" style="background:#ff6400; color:#000; font-family:'Exo 2',sans-serif; font-weight:600; letter-spacing:1px;">
+            Contáctanos <i class="bi bi-arrow-right ms-1"></i>
+          </a>
+        </div>
+
+        <div class="col-md-6">
+          <div class="row g-3">
+            <div class="col-6">
+              <div class="p-3 rounded-3 h-100" style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,100,0,0.15);">
+                <i class="bi bi-truck fs-4 mb-2 d-block" style="color:#ff6400;"></i>
+                <p class="fw-bold text-white mb-1" style="font-family:'Exo 2',sans-serif; font-size:0.9rem;">Envío rápido</p>
+                <small style="color:#666;">A todo Colombia</small>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="p-3 rounded-3 h-100" style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,100,0,0.15);">
+                <i class="bi bi-shield-check fs-4 mb-2 d-block" style="color:#ff6400;"></i>
+                <p class="fw-bold text-white mb-1" style="font-family:'Exo 2',sans-serif; font-size:0.9rem;">Garantía total</p>
+                <small style="color:#666;">En todos los productos</small>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="p-3 rounded-3 h-100" style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,100,0,0.15);">
+                <i class="bi bi-headset fs-4 mb-2 d-block" style="color:#ff6400;"></i>
+                <p class="fw-bold text-white mb-1" style="font-family:'Exo 2',sans-serif; font-size:0.9rem;">Soporte 7/7</p>
+                <small style="color:#666;">Siempre disponibles</small>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="p-3 rounded-3 h-100" style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,100,0,0.15);">
+                <i class="bi bi-currency-dollar fs-4 mb-2 d-block" style="color:#ff6400;"></i>
+                <p class="fw-bold text-white mb-1" style="font-family:'Exo 2',sans-serif; font-size:0.9rem;">Mejor precio</p>
+                <small style="color:#666;">Garantizado</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section id="contacto" class="py-5" style="background:#070712;">
+    <div class="container">
+
+      <div class="text-center mb-5">
+        <p class="mb-1" style="color:#ff6400; font-family:'Exo 2',sans-serif; letter-spacing:3px; font-size:0.8rem;">── ESCRÍBENOS ──</p>
+        <h2 class="fw-bold text-white" style="font-family:'Barlow Condensed',sans-serif; font-size:2.2rem;">CONTACTO</h2>
+        <p style="color:#888; font-family:'Exo 2',sans-serif;">¿Tienes dudas o quieres hacer un pedido? Estamos aquí.</p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-7">
+          <div class="p-4 p-md-5 rounded-4" style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,100,0,0.15);">
+
+            <div class="mb-4">
+              <label class="form-label" style="color:#aaa; font-family:'Exo 2',sans-serif; font-size:0.85rem; letter-spacing:1px;">NOMBRE COMPLETO</label>
+              <input type="text" class="form-control" placeholder="Tu nombre" style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); color:#fff; border-radius:8px;">
+            </div>
+
+            <div class="mb-4">
+              <label class="form-label" style="color:#aaa; font-family:'Exo 2',sans-serif; font-size:0.85rem; letter-spacing:1px;">CORREO ELECTRÓNICO</label>
+              <input type="email" class="form-control" placeholder="correo@ejemplo.com" style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); color:#fff; border-radius:8px;">
+            </div>
+
+            <div class="mb-4">
+              <label class="form-label" style="color:#aaa; font-family:'Exo 2',sans-serif; font-size:0.85rem; letter-spacing:1px;">CATEGORÍA</label>
+              <select class="form-select" style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); color:#fff; border-radius:8px;">
+                <option style="background:#111;" value="">Selecciona una categoría</option>
+                <option style="background:#111;">Balones y Equipos</option>
+                <option style="background:#111;">Jerseys y Ropa</option>
+                <option style="background:#111;">Zapatillas</option>
+                <option style="background:#111;">Accesorios</option>
+                <option style="background:#111;">Coleccionables</option>
+              </select>
+            </div>
+
+            <div class="mb-4">
+              <label class="form-label" style="color:#aaa; font-family:'Exo 2',sans-serif; font-size:0.85rem; letter-spacing:1px;">MENSAJE</label>
+              <textarea class="form-control" rows="4" placeholder="¿Qué producto buscas o en qué te podemos ayudar?" style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); color:#fff; border-radius:8px;"></textarea>
+            </div>
+
+            <button type="button" class="btn w-100 py-3" style="background:#ff6400; color:#000; font-family:'Barlow Condensed',sans-serif; font-size:1.1rem; letter-spacing:2px; border:none; border-radius:8px;">
+              ENVIAR MENSAJE
+            </button>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <footer style="background:#03030a; border-top:1px solid rgba(255,100,0,0.1);" class="text-white text-center py-5">
+    <div class="container">
+      <p class="fw-bold mb-1" style="font-family:'Barlow Condensed',sans-serif; color:#ff6400; letter-spacing:3px; font-size:1.3rem;">
+        🏀 HOOPZONE
+      </p>
+      <p style="color:#555; font-family:'Exo 2',sans-serif; font-size:0.85rem;" class="mb-3">La tienda basket de Colombia</p>
+      <div class="d-flex justify-content-center gap-3 mb-3">
+        <a href="#" style="color:#555;" class="text-decoration-none"><i class="bi bi-instagram fs-5"></i></a>
+        <a href="#" style="color:#555;" class="text-decoration-none"><i class="bi bi-facebook fs-5"></i></a>
+        <a href="#" style="color:#555;" class="text-decoration-none"><i class="bi bi-tiktok fs-5"></i></a>
+        <a href="#" style="color:#555;" class="text-decoration-none"><i class="bi bi-whatsapp fs-5"></i></a>
+      </div>
+      <p class="mb-0" style="color:#333; font-family:'Exo 2',sans-serif; font-size:0.8rem;">© 2026 HoopZone Store — Todos los derechos reservados</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
